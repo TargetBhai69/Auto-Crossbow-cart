@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "autocrossbowcart",
+  "version": "1.0.0",
+  "name": "Auto Crossbow Cart",
+  "description": "Auto x-bow cart: sword right-click places rail, TNT cart, fire, slab and shoots the crossbow. By vs.",
+  "authors": ["vs"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.vs.autocrossbowcart.AutoCrossbowCartClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.11",
+    "minecraft": "1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
